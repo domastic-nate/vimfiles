@@ -57,6 +57,7 @@ function M.setup()
         }
         use 'dhruvmanila/telescope-bookmarks.nvim'
         use "lukas-reineke/lsp-format.nvim"
+        use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
 
         if packer_bootstrap then
             print "Restart Neovim required after installation!"

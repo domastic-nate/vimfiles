@@ -203,3 +203,8 @@ require 'lspconfig'.sumneko_lua.setup {
         },
     },
 }
+
+
+local neogit = require('neogit')
+
+neogit.setup {}
