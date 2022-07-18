@@ -4,8 +4,7 @@ local g = vim.g
 local fn = vim.fn
 local api = vim.api
 
-require("plugins")
-
+require("plugins").setup()
 
 o.scrolloff = 8
 o.number = true
